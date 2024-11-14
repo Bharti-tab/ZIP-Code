@@ -10,6 +10,10 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 import org.apache.commons.codec.binary.Base64;
+/*
+Standard java library being used 
+for Base64 -> org.apache.commons dependency being used
+*/
 
 public class ConvertFolderToZip {
 	private List<String> fileList=new ArrayList<>();;
